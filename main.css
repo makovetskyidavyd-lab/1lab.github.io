@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f6e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    background: #ff9800; }
+
+.nav-link,
+.navbar-brand {
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('https://images.ctfassets.net/szez98lehkfm/7qjhPfcvfIhxoHyXZnO6k/4152f21558d846177639a35a061fb664/MyIC_Article_114836');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.header .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+}
+
+.description h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.description button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+
+.description button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    max-width: 1200px;
+}
+
+.feature-title {
+    color: #ff9800; 
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+.features .form-control {
+    border-radius: 0 !important;
+    margin-bottom: 15px;
+}
+
+.features .btn {
+    border-radius: 0;
+    background: #ff9800;     
+    border: 1px solid #ff9800;
+    color: white;
+}
+
+.features .btn:hover {
+    background: #e68900;      
+    border: 1px solid #e68900;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.page-footer h6 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.page-footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #777;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+
+@media (max-width: 768px) {
+    .description h1 {
+        font-size: 2rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
+
+    .header {
+        min-height: 70vh;
+    }
+}

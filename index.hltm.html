@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page — Лабораторна</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">David</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation"
+            aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="page-header header container-fluid">
+    <div class="overlay"></div>
+
+    <div class="container h-100">
+      <div class="description">
+        <h1>Welcome to David's portfolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio.</p>
+        <button class="btn btn-lg btn-outline-secondary">Tell Me More!</button>
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="container features">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <h3 class="feature-title">Specimen №1</h3>
+        <img src="img1.jpg" alt="col1" class="img-fluid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <h3 class="feature-title">Specimen №2</h3>
+        <img src="img2.jpg" alt="col2" class="img-fluid">
+        <p>Quisque interdum quam odio, quis placerat ante luctus eu.</p>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <h3 class="feature-title">Get in Touch!</h3>
+        <form id="contact" class="text-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name" name="name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Address" name="email">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+          </div>
+          <input type="submit" class="btn btn-secondary btn-block" value="Send">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <p>Chernivtsi, Ukraine <br/> davidmakkkenzz@gmail.com <br/> +380 95 061 3008</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3">
+      © <span id="year"></span> D.Makovetskyi.lab1
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
